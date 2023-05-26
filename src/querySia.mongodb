@@ -1,0 +1,3 @@
+use("siasoft")
+
+db.Inventory.find()
