@@ -1,0 +1,7 @@
+use("alejobd")
+
+db.fabric.find(
+    {
+        "item.name" : "ab"
+    }
+)

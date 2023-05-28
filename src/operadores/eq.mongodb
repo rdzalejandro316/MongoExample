@@ -1,0 +1,14 @@
+use("alejobd")
+
+// using $eq implicit
+db.fabric.find({
+     qty : 20
+})
+
+
+// using $eq explicit
+db.fabric.find({
+   qty : {
+    $eq : 20
+   } 
+})

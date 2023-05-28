@@ -1,0 +1,5 @@
+use("alejobd")
+
+db.invetory.deleteOne({codigo:'A3'})
+
+db.invetory.find()

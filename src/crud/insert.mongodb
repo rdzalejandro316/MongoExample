@@ -1,0 +1,18 @@
+use("alejobd");
+
+db.invetory.insertMany([
+  {
+    codigo: "A2",
+    nombre: "nom a2",
+  },
+  {
+    codigo: "A3",
+    nombre: "nom a3",
+  },
+]);
+
+db.invetory.insertOne({
+  codigo: "A4",
+  nombre: "nom a4",
+  campo_extra : 5000
+});

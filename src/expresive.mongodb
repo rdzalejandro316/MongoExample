@@ -1,0 +1,7 @@
+use("alejobd");
+
+db.monthlyBudget.find({
+  $expr: {
+    $gte: ["$spent", "$budget"],
+  },
+});

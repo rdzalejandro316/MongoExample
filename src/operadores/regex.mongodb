@@ -1,0 +1,5 @@
+use("alejobd");
+
+db.reg.find({ 
+    "item.description": { $regex: /line/ } 
+});

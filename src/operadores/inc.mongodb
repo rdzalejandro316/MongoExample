@@ -1,0 +1,10 @@
+use("alejobd");
+
+db.fabric.updateMany(
+  { qty: 35 },
+  {
+    $inc: { qty: 5 },
+  }
+);
+
+db.fabric.find();

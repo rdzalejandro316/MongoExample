@@ -1,0 +1,9 @@
+use("alejobd")
+
+db.fabric.find(
+    {
+        qty : {
+           $ne : 20 
+        }
+    }
+)

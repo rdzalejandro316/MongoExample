@@ -1,0 +1,12 @@
+use("alejobd");
+
+db.invetory.updateOne(
+  { codigo: "A1" },
+  {
+    $set: {
+      nombre: "nom a1 xd",
+    },
+  }
+);
+
+db.invetory.find()

@@ -1,0 +1,3 @@
+use("alejobd")
+
+db.invetory.find()

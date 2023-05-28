@@ -1,0 +1,10 @@
+use("alejobd")
+
+db.product.updateOne({_id: 4}, {
+  $push: {
+    tags:{
+      $each:["headphone","wireless"]
+    }
+  }
+})
+db.product.find()
